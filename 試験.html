@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>SVW</title>
+</head>
+<body>
+<center>
+<h1>Secret Video Watcher</h1>
+<p>私から言われたPassWordを入力してください</p><br>
+<textarea name="pass" cols="40" width="160" value="">ここにpasswprdを入力</textarea>
+</center>
+
+<script type="text/JavaScript">
+
+function check() {
+var pass = document.all["pass"].value;
+
+if (pass == "LoungeWm1"){
+document.getElementById("url").setAttribute("href","XXX");
+document.getElementById('url').click();
+
+}else if (pass == "Example"){
+document.getElementById("url").setAttribute("href","Youtube.com");
+document.getElementById('url').click();
+}else{
+alert('そんなワードねえよ');
+}
+}
+</script>
+
+</body>
+</html>
